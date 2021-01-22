@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk4"
+    tools:context=".RatingClass">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="260dp"
+        android:numStars="3"
+        android:stepSize="1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/button_stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="380dp"
+        android:background="#E91E63"
+        android:onClick="rateenter"
+        android:text="submit"
+        android:textColor="#FDFCFD"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="320dp" />
+    <!--
+        #03A9F4
+    -->
+</RelativeLayout>
